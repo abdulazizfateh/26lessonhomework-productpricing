@@ -1,0 +1,79 @@
+.faq-section {
+    padding: 150px 0 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .faq-section-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .faq-title-text {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+            .faq-title {
+                color: rgb(34, 52, 61);
+                font-size: 34px;
+                font-weight: 700;
+                line-height: 51px;
+                margin-bottom: 8px;
+            }
+
+            .faq-text {
+                color: rgb(34, 52, 61);
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 27px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .faq-questions {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+
+            .faq-question1 {
+                border-bottom: 1px solid rgb(231, 231, 231);
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 16px;
+                width: 920px;
+                padding: 0 0 22px 0;
+
+                .faq-question-text {
+                    color: rgb(34, 52, 61);
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    letter-spacing: 1.1px;
+                }
+            }
+
+            .faq-question {
+                border-bottom: 1px solid rgb(231, 231, 231);
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 16px;
+                width: 920px;
+                padding: 16px 0 22px 0;
+
+                .faq-question-text {
+                    color: rgb(34, 52, 61);
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    letter-spacing: 1.1px;
+                }
+            }
+        }
+    }
+}

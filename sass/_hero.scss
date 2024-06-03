@@ -1,0 +1,183 @@
+.hero-section {
+
+    .hero-section-wrapper {
+        padding: 50px 0 150px 0;
+
+        .hero-title-text {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 49px;
+
+            .hero-title {
+                color: rgb(34, 52, 61);
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 36px;
+                margin-bottom: 32px;
+            }
+
+            .hero-text {
+                color: rgb(34, 52, 61);
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 60px;
+                margin-bottom: 16px;
+            }
+
+            .hero-desc {
+                color: rgb(34, 52, 61);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+            }
+        }
+
+        .hero-cards {
+            display: flex;
+            align-items: center;
+            gap: 71px;
+
+            .hero-card {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                width: 322px;
+                border-radius: 8px;
+                box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+                background: rgb(255, 255, 255);
+                padding: 24px 70px 32px 70px;
+                transition: 0.15s linear;
+
+                &:hover {
+                    background-color: rgb(2, 137, 122);
+
+                    .hero-title {
+                        color: white;
+                    }
+
+                    .hero-text {
+                        color: white;
+                    }
+
+                    .hero-cost-wrapper {
+                        .hero-cost-left {
+                            color: white;
+                        }
+
+                        .hero-cost-right {
+                            .hero-cost-dollar {
+                                color: white;
+                            }
+
+                            .hero-cost-month {
+                                color: white;
+
+                            }
+                        }
+                    }
+
+                    .hero-card-info {
+                        color: white;
+                    }
+
+                    .hero-card-order-btn {
+                        background-color: white;
+                        color: rgb(2, 137, 122);
+                        border: none;
+                    }
+                }
+
+                .hero-title {
+                    color: rgb(34, 52, 61);
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 40px;
+                    margin-bottom: 8px;
+                }
+
+                .hero-text {
+                    color: rgb(34, 52, 61);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    margin-bottom: 16px;
+                }
+
+                .hero-cost-wrapper {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-bottom: 16px;
+
+                    .hero-cost-left {
+                        color: rgb(2, 137, 122);
+                        font-size: 76px;
+                        font-weight: 700;
+                        line-height: 100px;
+                        letter-spacing: 0.2px;
+                    }
+
+                    .hero-cost-right {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        .hero-cost-dollar {
+                            color: rgb(2, 137, 122);
+                            font-size: 24px;
+                            font-weight: 800;
+                            line-height: 30px;
+                            letter-spacing: 0.1px;
+                        }
+
+                        .hero-cost-month {
+                            color: rgb(175, 175, 175);
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 19px;
+                            letter-spacing: 0.1px;
+                        }
+                    }
+                }
+
+                .hero-card-info {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: rgb(34, 52, 61);
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    letter-spacing: 0.2px;
+                    margin-bottom: 16px;
+                }
+
+                .hero-card-order-btn {
+                    padding: 11px 18px;
+                    border-radius: 8px;
+                    background: rgb(2, 137, 122);
+                    color: rgb(255, 255, 255);
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    margin-top: 38px;
+                    border: none;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: rgb(232, 255, 252);
+                        ;
+                    }
+
+                    &:active {
+                        color: rgb(24, 109, 101);
+                    }
+
+                }
+            }
+        }
+    }
+}
